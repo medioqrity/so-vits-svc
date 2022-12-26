@@ -1,6 +1,4 @@
-./dataset/32k/nen/kne110_005.wav
-./dataset/32k/yunhao/001827.wav
-./dataset/32k/jishuang/000104.wav
-./dataset/32k/jishuang/000223.wav
-./dataset/32k/nen/kne110_004.wav
-./dataset/32k/yunhao/001828.wav
+./dataset/32k/c/58_P58 [678869203_part58]_(Vocals)_35813386_36203388.wav
+./dataset/32k/pi/7_[42921830_part20]_(Vocals)_67253803_67696740.wav
+./dataset/32k/c/49_P49 [678869203_part49]_(Vocals)_7266699_7717657.wav
+./dataset/32k/pi/50_[42921830_part63]_(Vocals)_25484188_25840941.wav

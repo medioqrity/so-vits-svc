@@ -1,7 +1,20 @@
-./dataset/32k/yunhao/001829.wav
-./dataset/32k/yunhao/001827.wav
-./dataset/32k/jishuang/000104.wav
-./dataset/32k/nen/kne110_005.wav
-./dataset/32k/nen/kne110_004.wav
-./dataset/32k/jishuang/000223.wav
-./dataset/32k/yunhao/001828.wav
+./dataset/32k/pi/21_[42921830_part34]_(Vocals)_51713977_52181098.wav
+./dataset/32k/c/13_53 [860286073_part53]_(Vocals)_79569401_79766064.wav
+./dataset/32k/pi/15_[42921830_part28]_(Vocals)_25538758_25949687.wav
+./dataset/32k/c/40_40 [860286073_part40]_(Vocals)_52380875_52828910.wav
+./dataset/32k/c/13_13 [860286073_part13]_(Vocals)_101276559_101715694.wav
+./dataset/32k/c/2_P87 [678869203_part87]_(Vocals)_29651297_30128100.wav
+./dataset/32k/c/27_P27 [678869203_part27]_(Vocals)_8655825_9108029.wav
+./dataset/32k/pi/2_[808385202_part8]_(Vocals)_51081689_51447011.wav
+./dataset/32k/c/60_P60 [678869203_part60]_(Vocals)_15850580_16167817.wav
+./dataset/32k/pi/53_[53828023_part1]_(Vocals)_73793615_74257406.wav
+./dataset/32k/pi/3_[42921830_part16]_(Vocals)_91344633_91789698.wav
+./dataset/32k/pi/25_[42921830_part38]_(Vocals)_107965086_108373494.wav
+./dataset/32k/pi/26_[42921830_part39]_(Vocals)_24128815_24546365.wav
+./dataset/32k/pi/60_[53828023_part8]_(Vocals)_32955004_33230181.wav
+./dataset/32k/pi/49_[42921830_part62]_(Vocals)_16584261_16889716.wav
+./dataset/32k/c/15_15 [860286073_part15]_(Vocals)_71571429_71865003.wav
+./dataset/32k/pi/11_[42921830_part9]_(Vocals)_46947448_47324129.wav
+./dataset/32k/c/1_P1 [294005520_part1]_(Vocals)_235969_585814.wav
+./dataset/32k/c/8_48 [860286073_part48]_(Vocals)_13025012_13475696.wav
+./dataset/32k/c/74_P74 [678869203_part74]_(Vocals)_44298103_44480137.wav

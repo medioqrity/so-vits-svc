@@ -109,7 +109,6 @@ class EvalDataLoader(torch.utils.data.Dataset):
         self.audiopaths = self.audiopaths[:5]
         self.spk_map = hparams.spk
 
-
     def get_audio(self, filename):
         audio, sampling_rate = load_wav_to_torch(filename)
         if sampling_rate != self.sampling_rate:
@@ -125,7 +124,7 @@ class EvalDataLoader(torch.utils.data.Dataset):
                                      self.sampling_rate, self.hop_length, self.win_length,
                                      center=False)
             spec = torch.squeeze(spec, 0)
-            torch.save(spec, spec_filename)
+            # torch.save(spec, spec_filename)  # not enough disk space
 
         spk = filename.split(os.sep)[-2]
         spk = torch.LongTensor([self.spk_map[spk]])
