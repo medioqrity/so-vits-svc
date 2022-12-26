@@ -1,4 +1,5 @@
 import logging
+logging.getLogger('matplotlib').setLevel(logging.WARNING)
 import os
 import torch
 import re
@@ -24,7 +25,6 @@ from losses import (
 
 from mel_processing import mel_spectrogram_torch, spec_to_mel_torch
 
-logging.getLogger('matplotlib').setLevel(logging.WARNING)
 torch.backends.cudnn.benchmark = True
 global_step = 0
 
@@ -93,6 +93,7 @@ def run(rank, n_gpus, hps):
         _, _, _, epoch_str = utils.load_checkpoint(d_pth, net_d,
                                                    optim_d)
         global_step = int(re.match(r".*G_(\d+)\.pth", g_pth).group(1))
+        print("global_step: %d" % global_step)
     except:
         epoch_str = 1
         global_step = 0
@@ -123,6 +124,7 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
 
     # train_loader.batch_sampler.set_epoch(epoch)
     global global_step
+    print("global_step in train_and_evaluate: %d", global_step)
 
     net_g.train()
     net_d.train()
