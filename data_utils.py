@@ -52,7 +52,7 @@ class TextAudioSpeakerLoader(torch.utils.data.Dataset):
                                      self.sampling_rate, self.hop_length, self.win_length,
                                      center=False)
             spec = torch.squeeze(spec, 0)
-            torch.save(spec, spec_filename)
+            # torch.save(spec, spec_filename)
 
         spk = filename.split(os.sep)[-2]
         spk = torch.LongTensor([self.spk_map[spk]])
